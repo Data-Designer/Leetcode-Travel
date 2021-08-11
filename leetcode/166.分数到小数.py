@@ -4,7 +4,7 @@ version:
 Author: Data Designer
 Date: 2021-08-10 21:23:41
 LastEditors: Data Designer
-LastEditTime: 2021-08-10 21:42:05
+LastEditTime: 2021-08-11 09:15:20
 '''
 #
 # @lc app=leetcode.cn id=166 lang=python3
@@ -24,7 +24,7 @@ class Solution:
         a,b = divmod(numerator,denominator)
         res.append(str(a))
         if b == 0:
-            return ''.join(res)
+            return ''.join(res) # 不能返回0
         res.append('.')
         loc =  {b:len(res)} # 记录位置
         while b:
