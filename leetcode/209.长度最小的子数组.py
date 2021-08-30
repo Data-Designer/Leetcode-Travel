@@ -1,10 +1,10 @@
 '''
-Description: 滑动窗口
+Description: 滑动窗口或者最小前缀和
 version: 
 Author: Data Designer
 Date: 2021-08-24 10:49:07
 LastEditors: Data Designer
-LastEditTime: 2021-08-24 11:17:53
+LastEditTime: 2021-08-25 13:45:38
 '''
 #
 # @lc app=leetcode.cn id=209 lang=python3
